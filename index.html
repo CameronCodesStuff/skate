@@ -96,7 +96,7 @@ const ramps = [
     {x:700,y:400,w:300,h:200},
     {x:1200,y:300,w:350,h:300},
     {x:1800,y:450,w:300,h:150},
-    {x:2400,y:250,w:500,h:3500}
+    {x:2400,y:2500,w:500,h:350}
 ];
 
 let cameraX = 0;
@@ -139,7 +139,7 @@ function update(){
 
     player.x += player.speed;
 
-    player.vy += 10;
+    player.vy += 0.6;
     player.y += player.vy;
 
     let ground = 600;
